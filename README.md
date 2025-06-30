@@ -5,15 +5,13 @@
 
 Ashutosh Khadse:
 Led the initial phases of the project, focusing on data extraction and transformation. He was instrumental in setting up the PostgreSQL database using SQLAlchemy, ensuring efficient data loading and management.
+Also, Focused on automation, visualization, and data cleaning. He developed Apache Airflow DAGs to automate the ETL pipeline, conducted data cleaning operations, and created comprehensive dashboards in both Power BI Desktop and Power BI Cloud to visualize the processed data.
 
 Abhijeet Sushir:
 Specialized in data preprocessing tasks. He handled the imputation of missing values, standardization of data formats, and removal of duplicates, contributing significantly to the integrity of the dataset.
 
-Sahil Sigar:
-Managed the integration of external data sources through APIs. He was responsible for fetching additional job postings via RapidAPI, performing exploratory data analysis, and incorporating the new data into our existing PostgreSQL schema.
-
 Hardik Kelotra:
-Focused on automation, visualization, and data cleaning. He developed Apache Airflow DAGs to automate the ETL pipeline, conducted data cleaning operations, and created comprehensive dashboards in both Power BI Desktop and Power BI Cloud to visualize the processed data.
+Managed the integration of external data sources through APIs. He was responsible for fetching additional job postings via RapidAPI, performing exploratory data analysis, and incorporating the new data into our existing PostgreSQL schema.
 
 ## Overview
 In this project, we are going to analyze, manipulate and visualize data about job postings in Linkedin, as part of an ETL project. We used SQLAlchemy as an Object-Relational Mapping (ORM) tool connected to PostgreSQL, and we will generate visual representations using PowerBI.
